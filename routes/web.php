@@ -14,10 +14,12 @@ use App\Http\Controllers\UserController;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
 
 
-Route::get('about', [UserController::class, 'PrintMessage']);
+Route::get('/', [UserController::class, 'PrintMessage']);
 
